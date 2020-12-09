@@ -23,7 +23,7 @@ namespace AoC_2020.Day3
 
             var treesEncountered = CheckSlope(map, 3, 1);
 
-            Console.WriteLine($"Trees Encountered Part 1: {treesEncountered}");
+            Console.WriteLine($"Trees Encountered Part 1: {treesEncountered}"); 
         }
 
         private static void PartTwo(char[,] map)

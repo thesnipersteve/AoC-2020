@@ -6,8 +6,8 @@ namespace AoC_2020
     {
         public static void Main(string[] args)
         {
-            var day8 = new Day8.Solution();
-            day8.Run();
+            var day9 = new Day9.Solution();
+            day9.Run();
         }
     }
 }

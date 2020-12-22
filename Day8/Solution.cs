@@ -11,7 +11,7 @@ namespace AoC_2020.Day8
         public void Run()
         {
 
-            var input = MultiLineInputReader.ReadInput<string>("Day8/Input.txt").Result;
+            var input = MultiLineInputReader.ReadInputAsync<string>("Day8/Input.txt").Result;
             var commands = input.Select(ConvertStringToCommand).ToArray();
 
             Console.WriteLine("Part 1:");

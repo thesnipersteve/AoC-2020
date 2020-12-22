@@ -8,7 +8,7 @@ namespace AoC_2020.Day3
     {
         public static void Run()
         {
-            var input = MultiLineInputReader.ReadInput<string>("Day3/Input.txt").Result;
+            var input = MultiLineInputReader.ReadInputAsync<string>("Day3/Input.txt").Result;
 
             char[,] map = ConvertInputToMultiDimensionalArray(input);
 

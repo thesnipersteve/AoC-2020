@@ -12,7 +12,7 @@ namespace AoC_2020.Day9
 
         public void Run()
         {
-            input = MultiLineInputReader.ReadInput<long>("Day9/Input.txt").Result.ToArray();
+            input = MultiLineInputReader.ReadInputAsync<long>("Day9/Input.txt").Result.ToArray();
 
             Console.WriteLine("Part 1");
 

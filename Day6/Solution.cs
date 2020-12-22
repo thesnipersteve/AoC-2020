@@ -15,7 +15,7 @@ namespace AoC_2020.Day6
             Console.WriteLine("Part 1:");
             Console.WriteLine("Challenge: Maximize Speed & Minimize Big O Complexity");
 
-            var input = MultiLineInputReader.ReadInput<string>("Day6/Input.txt").Result;
+            var input = MultiLineInputReader.ReadInputAsync<string>("Day6/Input.txt").Result;
 
             var stopWatchPart1 = new Stopwatch();
             stopWatchPart1.Start();

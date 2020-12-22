@@ -14,7 +14,7 @@ namespace AoC_2020.Day7
 
         public void Run()
         {
-            var input = MultiLineInputReader.ReadInput<string>("Day7/Input.txt").Result;
+            var input = MultiLineInputReader.ReadInputAsync<string>("Day7/Input.txt").Result;
             var bagRules = input.Select(DeserializeBagRule);
 
             Console.WriteLine("Part 1");

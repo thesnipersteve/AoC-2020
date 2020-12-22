@@ -8,7 +8,7 @@ namespace AoC_2020.Day5
     {
         public static void Run()
         {
-            var input = MultiLineInputReader.ReadInput<string>("Day5/Input.txt").Result;
+            var input = MultiLineInputReader.ReadInputAsync<string>("Day5/Input.txt").Result;
 
 
             Console.WriteLine($"Part 1");

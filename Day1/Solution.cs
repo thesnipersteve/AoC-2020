@@ -8,7 +8,7 @@ namespace AoC_2020.Day1
     {
         public static void Run()
         {
-            var expenseItems = MultiLineInputReader.ReadInput<int>("Day1/Input.txt").Result;
+            var expenseItems = MultiLineInputReader.ReadInputAsync<int>("Day1/Input.txt").Result;
 
             Console.WriteLine("Part 1:");
             Console.WriteLine($"Total {FindTwoNumbersThatAddUpTo2020(expenseItems)}");

@@ -7,7 +7,7 @@ namespace AoC_2020
 {
     public static class MultiLineInputReader
     {
-        public static async Task<List<T>> ReadInput<T>(string fileName)
+        public static async Task<List<T>> ReadInputAsync<T>(string fileName)
         {
             var fileLines = await System.IO.File.ReadAllLinesAsync(fileName);
             var listInRightType = fileLines

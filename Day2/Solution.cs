@@ -9,7 +9,7 @@ namespace AoC_2020.Day2
     {
         public static void Run()
         {
-            var passwordAndPolicyList = MultiLineInputReader.ReadInput<string>("Day2/Input.txt").Result;
+            var passwordAndPolicyList = MultiLineInputReader.ReadInputAsync<string>("Day2/Input.txt").Result;
 
             PartOne(passwordAndPolicyList);
 

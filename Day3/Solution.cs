@@ -59,7 +59,8 @@ namespace AoC_2020.Day3
             return treesEncountered;
         }
 
-
+        // TODO: Refactor as this is [y,x] rather than [x,y] 
+        // See Day 11 for an example of better usage
         private static char[,] ConvertInputToMultiDimensionalArray(List<string> input)
         {
             var inputWidth = input.First().Length;
